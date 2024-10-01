@@ -1,0 +1,24 @@
+.fitems{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    border-color: rgb(20, 235, 70);
+    border-width: 10px;
+    border-radius: 20px;
+    border-style: double;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+h1,h2,h3,h4{
+    font-size: 40px;
+    text-align: center;
+    text-decoration-color: bisque;
+}
+body{
+    background-color: beige;
+}
