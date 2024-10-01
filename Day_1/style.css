@@ -1,3 +1,18 @@
 body{
     background-color: lightcyan;
 }
+table{
+    background-color: lightcoral;
+    border-radius: 10px;
+    border-color: coral;
+    border-style:dotted ;
+    border-width: 10px;
+    color: black;
+
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* add commit push */
