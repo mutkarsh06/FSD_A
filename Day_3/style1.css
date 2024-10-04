@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#mydiv{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    display: flex;
+    width: 100vw;
+    background-color: #ddf0bb;
+    justify-content: center;
+    gap: 20px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+#header .logo{
+    color: violet;
+    margin-left: 20px;
+}
+#header .menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#header .nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.nav-item{
+    background-color: #ffff;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+
+}
